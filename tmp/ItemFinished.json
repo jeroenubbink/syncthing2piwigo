@@ -1,0 +1,13 @@
+{
+    "id": 93,
+    "globalID": 93,
+    "type": "ItemFinished",
+    "time": "2014-07-13T21:22:03.414609034+02:00",
+    "data": {
+        "item": "test.txt",
+        "folder": "default",
+        "error": null,
+        "type": "file",
+        "action": "update"
+    }
+}

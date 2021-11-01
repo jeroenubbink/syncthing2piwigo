@@ -10,7 +10,6 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
 
 test_requirements = ['pytest>=3', ]
 
@@ -28,10 +27,10 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Sync upload pictures directly to a Piwigo album.",
+    description="Sync uploaded pictures directly to a Piwigo album.",
     entry_points={
-        'console_scripts': [
-            'syncthing2piwigo=syncthing2piwigo.cli:main',
+        'IOLoop': [
+            'syncthing2piwigo=syncthing2piwigo:main',
         ],
     },
     install_requires=requirements,
